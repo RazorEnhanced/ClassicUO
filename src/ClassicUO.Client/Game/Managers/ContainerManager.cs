@@ -257,7 +257,7 @@ namespace ClassicUO.Game.Managers
             {
                 MakeDefault();
 
-                using (StreamWriter writer = new StreamWriter(File.Create(path)))
+                using (StreamWriter writer = new StreamWriter(File.OpenWrite(path)))
                 {
                     writer.WriteLine("# FORMAT");
 

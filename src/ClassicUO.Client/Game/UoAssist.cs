@@ -57,7 +57,12 @@ namespace ClassicUO.Utility.Platforms
                 return;
             }
 
-            _customWindow = new CustomWindow("UOASSIST-TP-MSG-WND");
+            try
+            {
+                _customWindow = new CustomWindow(world, "UOASSIST-TP-MSG-WND");
+            }
+            catch
+            { }
         }
 
         public static void SignalMapChanged(int newMap)
