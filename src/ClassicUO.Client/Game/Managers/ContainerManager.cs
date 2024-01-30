@@ -257,7 +257,8 @@ namespace ClassicUO.Game.Managers
             {
                 MakeDefault();
 
-                using (StreamWriter writer = new StreamWriter(File.OpenWrite(path)))
+                using (var stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite))
+                using (var writer = new StreamWriter(stream))
                 {
                     writer.BaseStream.Seek(0, SeekOrigin.Begin);
 
