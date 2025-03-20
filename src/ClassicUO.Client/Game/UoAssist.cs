@@ -59,7 +59,7 @@ namespace ClassicUO.Utility.Platforms
 
             try
             {
-                _customWindow = new CustomWindow(world, "UOASSIST-TP-MSG-WND");
+                _customWindow = new CustomWindow("UOASSIST-TP-MSG-WND");
             }
             catch
             { }
