@@ -1,9 +1,9 @@
 [submodule "external/FNA"]
 	path = external/FNA
-	url = https://github.com/FNA-XNA/FNA.git
+	url = https://github.com/RazorEnhanced/FNA.git
 [submodule "external/MP3Sharp"]
 	path = external/MP3Sharp
-	url = https://github.com/andreakarasho/MP3Sharp.git
+	url = https://github.com/RazorEnhanced/MP3Sharp.git
 [submodule "external/FileEmbed"]
 	path = external/FileEmbed
-	url = https://github.com/SirCxyrtyx/FileEmbed.git
+	url = https://github.com/RazorEnhanced/FileEmbed.git
